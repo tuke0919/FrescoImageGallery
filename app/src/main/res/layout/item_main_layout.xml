@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/image_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+        <!--头像-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_item_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:actualImageResource="@drawable/avatar_datanghuangdi"
+            app:actualImageScaleType="fitXY"
+            app:roundedCornerRadius="3dp"
+            />
+        <!--内容-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <!--昵称-->
+            <TextView
+                android:id="@+id/image_item_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="大唐皇帝"
+                android:textColor="#FF534D"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="3dp"
+                />
+            <!--描述-->
+            <TextView
+                android:id="@+id/image_item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="吾弟玄奘将西去取经，祝一路顺风."
+                android:textSize="16dp"
+                android:textColor="#444444"
+                android:layout_marginTop="10dp"
+                />
+            <!--插入图片-->
+            <LinearLayout
+                android:id="@+id/image_item_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+
+
+            </LinearLayout>
+            <!--创建时间-->
+            <TextView
+                android:id="@+id/image_item_createtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5个小时前"
+                android:textColor="#999999"
+                android:textSize="12dp"
+                android:layout_marginTop="8dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#eeeeee"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/image_item_layout"
+        />
+
+</RelativeLayout>

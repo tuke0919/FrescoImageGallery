@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:id="@+id/toolbar_actionbar"
+       android:layout_width="match_parent"
+       android:layout_height="48dp">
+
+      <View
+          android:id="@+id/toolbar_bg"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/toolbar_bg" />
+
+      <ImageView
+          android:id="@+id/back_actionbar"
+          android:layout_width="48dp"
+          android:layout_height="48dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/left_back" />
+
+      <TextView
+          android:id="@+id/mid_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginLeft="96dp"
+          android:layout_marginRight="96dp"
+          android:ellipsize="marquee"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:text="古人朋友圈"
+          android:gravity="center"
+          android:singleLine="true"
+          android:typeface="sans"
+          android:textSize="14dp"
+          android:textColor="#FF534D"
+          android:textStyle="bold"/>
+   </RelativeLayout>
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recyclerview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/toolbar_actionbar"
+       >
+   </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

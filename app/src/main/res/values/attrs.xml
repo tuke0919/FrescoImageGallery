@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--九宫图空间-->
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension"/>
+    </declare-styleable>
+</resources>

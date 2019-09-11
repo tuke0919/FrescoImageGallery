@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 九图控件-->
+    <item name="singleImage_thumburl" type="id"/>
+    <item name="singleImage_clip_type" type="id"/>
+    <!-- viewpager id-->
+    <item name="imagepagerlayout_viewpager_id" type="id"/>
+</resources>
