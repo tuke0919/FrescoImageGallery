@@ -3,7 +3,7 @@
 
 |功能|实例|功能|实例|
 |---|---|---|---|
-|点击任意缩放|![点击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale_180x320.gif)|点击任意缩放|![点击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale_180x320.gif)|
+|点击任意缩放|![点击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale.gif)|点击任意缩放|![点击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale.gif)|
 ||||
 
 
