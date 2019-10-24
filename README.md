@@ -6,7 +6,7 @@
 |功能|实例|功能|实例|
 |---|---|---|---|
 |九图显示|![九图显示](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/nine_360x640.gif)|||
-|双指/双击缩放|![双指/双击缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/fingerscale_360x640.gif)|点击任意缩放|![点击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale.gif)|
-|向下拖动返回|![向下拖动返回](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/dragback1_360x640.gif)|向下拖动返回|![向下拖动返回1](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/dragback2_360x640.gif)|
+|双指/双击缩放|![双指/双击缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/fingerscale_360x640.gif)|单击任意缩放|![单击任意缩放](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/scale.gif)|
+|向下拖动返回|![向下拖动返回](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/dragback1_360x640.gif)|向上拖动|![向下拖动返回1](https://github.com/tuke0919/FrescoImageGallery/blob/master/image/dragback2_360x640.gif)|
 
 
